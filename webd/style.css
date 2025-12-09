@@ -1,0 +1,113 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+nav {
+    background-color:red;
+    color: whitesmoke;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+/* Hero Section for Home Page */
+.hero {
+    padding: 80px;
+    text-align: center;
+    background-color: rgb(17, 99, 126)#f4f4f4;
+}
+
+/* About Page Layout */
+.about-container {
+    width: 80%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.about-img {
+    float: left;
+    width: 250px;
+    margin-right: 25px;
+    border-radius: 10px;
+}
+
+/* Skills / Project Cards */
+.skills-container {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    justify-content: center;
+}
+
+.card {
+    width: 28%;
+    background-color: #fafafa;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Contact Form */
+form {
+    width: 50%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 12px 20px;
+    background-color:blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: blue
+}
+
+/* Clearfix for float */
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
